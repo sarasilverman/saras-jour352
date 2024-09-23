@@ -12,7 +12,7 @@ BODY {
     width:100%;
     max-width:1200px;
     margin:0 auto;
-    padding-bottom:50px;
+    padding-bottom: 500px;
 }
 
 /* name at top */
@@ -24,6 +24,7 @@ BODY {
     border-bottom: 1px solid #33485e;
     width:60%;
     min-width: 300px;
+    margin: 0 auto;
 }
 /* title at the top */
 #title {
@@ -53,6 +54,8 @@ BODY {
     text-transform:uppercase;
     background-color:#33485e;
     color:#fff;
+    width: 70%;
+    min-width: 300px;
     font-weight:400;
     margin-top:20px;
     margin-bottom:10px;
@@ -61,7 +64,7 @@ BODY {
 }
    
 /* job titles */
-h3{
+.jobtitle{
     font-weight:600;
     font-size:1.5em;
 }
