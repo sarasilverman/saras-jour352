@@ -20,14 +20,14 @@ h3{
   }
 
 
-.btn{
-  font-family: "Special Elite", system-ui;
-  font-weight: 400;
-  font-style: normal;
-  margin: 0 auto;
-  margin-top: 50px;
-
-  }
+  .btn{
+    font-family: "Special Elite", system-ui;
+    font-weight: 400;
+    font-style: normal;
+    margin: 0 auto;
+    margin-top: 50px;
+  
+    }
 
   #navbar-brand {
     font-family: "Special Elite", system-ui;
