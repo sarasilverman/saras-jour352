@@ -30,12 +30,6 @@ h3{
   font-style: normal;
 }
 
-
-
-
-
-
-
 .btn{
 
   font-family: "Special Elite", system-ui;
@@ -43,7 +37,7 @@ h3{
   font-style: normal;
 }
 
-   }
+  
 
 
 

@@ -1,0 +1,59 @@
+#content{
+    margin: 0 auto;
+    width: 900px;
+}
+
+#masthead{
+    text-align: center;
+    }
+
+.text-container{
+    width: 75%;
+    margin: 0 auto;
+}
+
+#byline{
+font-family: Helvetica, sans-serif;
+font-size: 14px;
+font-style: italic;
+}
+
+#headline{
+font-family: 'Times New Roman', Times, serif;
+font-size: 25px;
+}
+
+p{
+font-size: 13px;
+font-family: 'Georgia' serif;
+line-height: 1.5px;
+}
+
+.image-cotainer{
+text-align:center;
+margin: 0 auto;
+margin-bottom: 100px;
+}
+ 
+.alt{
+font-family: Helvetica, sans-serif;
+}
+
+.caption{
+font-size:10px
+}
+
+blockquote{
+font:25px normal helvetica, sans-serif;
+font-size: italic;
+margin-top: 15px;
+margin-bottom:15px;
+color: black;
+margin-left: 50px;
+padding-left:15px;
+border-left:4px solid #ccc;
+}
+
+.link{
+    font size: 18px;
+}
