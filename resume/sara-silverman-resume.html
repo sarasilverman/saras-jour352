@@ -11,15 +11,19 @@
 
 <!-- Bootstrap CSS and JavaScript -->
 <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
-
+<!--bootstrap icons link-->
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css">
 
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
 integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous">
 </script>
 
-<link rel="stylesheet.css" type="text/css" href="stylesheet.css">
-
+    <!--External stylesheet link-->
+<link rel="stylesheet" href="resumecopystyle.css">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto&family=Merriweather&display=swap" rel="stylesheet">
 </head>
+
+
 <!--navbar-->
 <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
    <div class="container-fluid">
@@ -27,41 +31,49 @@ integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIe
      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
        <span class="navbar-toggler-icon"></span>
      </button>
-     <div class="collapse navbar-collapse" id="navbarSupportedContent">
+     <div class="collapse navbar-collapse"
+      id="navbarSupportedContent">
        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
          <li class="nav-item">
-           <a class="nav-link active" aria-current="page" href="#">About Me</a>
+           <a class="nav-link active" aria-current="page" href="#About-Me">About Me</a>
          </li>
          <li class="nav-item">
        <li class="nav-item">
-           <a class="nav-link active" aria-current="page" href="#">Skills</a>
+           <a class="nav-link active" aria-current="page" href="#skills-section">Skills</a>
          </li>
      <li class="nav-item">
         <li class="nav-item">
-         <a class="nav-link active" aria-current="page" href="#">Experience</a>
+         <a class="nav-link active" aria-current="page" href="#experience-section">Experience</a>
         </li>
-    <li class="nav-item">  
+        <li class="nav-item">
+          <li class="nav-item">
+           <a class="nav-link active" aria-current="page" href="#Contact-section">Contact</a>
+          </li>
+        </ul>
+      </div>
         
    </div>
  </nav>
 
 <!--masthead-->
-<img src="masthead..png"
-           width="100%" max-width="500px">
 
+<img src="masthead..png" class="w-100" alt="Masthead of journalists reporting in black and white">
+
+<body>
+<main>
  <!--image of myself-->
  <div class="container col-xxl-8 px-4 py-5">
    <div class="row flex-lg-row-reverse align-items-center g-5 py-5">
      <div class="col-10 col-sm-8 col-lg-6">
        <img src="sara2.jpg" class="d-block mx-lg-auto img-fluid" alt="Bootstrap Themes" width="700" height="500" loading="lazy">
      </div>
-     <div class="col-lg-6">
+     <div class="col-lg-6" id="About-Me">
        <h1 class="display-5 fw-bold text-body-emphasis lh-1 mb-3">Sara Silverman</h1>
        <p class="lead">My name is Sara Silverman, and I am currently a sophomore Journalism major and Law and society minor at the University of Maryland. I am also a part of the University Honors College. I am driven, hard-working, and passionate in journalism, law, and public relations. In high school, I truly enjoyed taking on leadership roles that focused on community service and mentoring younger women. As a freshman and sophomore, I have involved myself with campus publications like The Campus Trainer and the Mitzpeh, as well as being a tutor for The Every Child Project.</p>
        <h3>Education</h3>
        <p>Bachelor of Arts, Journalism, minor in Law and Society, Honors School, University of Maryland</p>
        <div class="d-grid gap-2 d-md-flex justify-content-md-start">
-         <button type="button" class="btn btn-dark btn-lg px-4 me-md-2">About</button>
+         <button type="button" class="btn btn-dark btn-lg px-4 me-md-2">About Me</button>
        </div>
      </div>
    </div>
@@ -69,7 +81,7 @@ integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIe
 
  <div class="container">
     <div class="row">
-        <div class="col-md-6">
+        <div class="col-md-6" id="skills-section">
         <button type="button" class="btn btn-dark btn-lg px-4 me-md-2">Skills</button>
             <p>
             <h3>Problem solver:</h3>
@@ -85,88 +97,83 @@ integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIe
             <h3>Organizational:</h3>
             I have immense experience with organizing events and handling communication through my job this summer as assistant division leader for a unit at my sleepaway camp. In addition, throughout high school I was the president of two community service clubs. Both of these clubs were based on organizing events to help students become active in community service. I created a service assembly for the whole high school and reached out to multiple outside organizations and communicated with them and the school to create this event.
             </p>
-          
-        <button type="button" class="btn btn-dark btn-lg px-4 me-md-2">Education</button>
-
-        <p>Bachelor of Arts, Journalism,University of Maryland</p>
-        <p>minor in Law and Society</p>
-        <p>Honors School</p>
         </div>
        
-        <div class="col-md-6">
+        <div class="col-md-6" id="experience-section">
             <button type="button" class="btn btn-dark btn-lg px-4 me-md-2">Experience</button>
             <p>
-                <h4>Staff Writer</h4><small>August 2024-present</small>
+                <h3>Staff Writer</h3><small>August 2024-present</small>
                 <h6>Mitzpeh (University of Maryland’s Jewish newspaper)</h6>
                 Mitzpeh is the University of Maryland’s Jewish student publication. I write articles bi monthly for the newspaper, attend pitch meetings, and assist with the social media accounts.
             </p>
 
             <p>
-                <h4>Staff Writer</h4><small>January 2024-present</small>
+                <h3>Staff Writer</h3><small>January 2024-present</small>
                 <h6>Campus Trainer</h6>
                 The Campus Trainer is a lifestyle magazine that covers topics like beauty, fitness, wellness, and more. I write bi monthly articles for a digital publication focused on these lifestyle topics. I attend pitch meetings, interview a variety of people, and write about different topics like beauty and fitness.
             </p>
 
             <p>
-                <h4>Public Relations committee member</h4><small>August 2024-present</small>
+                <h3>Public Relations committee member</h3><small>August 2024-present</small>
                 <h6>Alpha Epsilon Phi</h6>
                 I attend PR meetings, directly coordinate with PHA delegates, maintain positive relationships with other chapters, and create advertisements for events.
             </p>
 
             <p>
-                <h4>Assistant Head of a division/Camp Counselor</h4><small>July-August 2021, July-August 2022, July-August 2023, May-August 2024</small>
+                <h3>Assistant Head of a division/Camp Counselor</h3><small>July-August 2021, July-August 2022, July-August 2023, May-August 2024</small>
                 <h6>Camp Seafarer</h6>
                 I worked as a sleepaway camp counselor in North Carolina. I utilized leadership skills and problem solving skills. I worked as a junior counselor for two years and moved up to be a senior counselor in charge.
             </p>
             
             <p>
-                <h4>Tutor</h4> <small>January 2024-present</small>
+                <h3>Tutor</h3> <small>January 2024-present</small>
                 <h6>The Every Child Project</h6>
                 I tutor a student for The Every Child Project. The Every Child Project is dedicated to providing free, accessible tutoring and enrichment programs for families in need. I meet with this student twice a week for thirty minutes each session. 
             </p>
         </div>
-<div class="container">
-    <div class="row">
-    <div class="image-container">   
-    <img src="umd..png"
-        width="50%" max-width="300px">
-</div>
-        <div class="container">
-          <div class="row">
-        
-        
-            <div class="col-md-3">
-              <i class="bi bi-book"></i>
-              <h3>Email Me</h3>
-              <p>ssilve10@terpmail.umd.edu</p>
-            </div>
+      </main>
+      
+        <!-- UMD Image -->
+         <div class=".umd-image">
+        <img src="umd-image.png" alt="Image of UMD logo" width="100%">
+      </div>
 
-            <div class="col-md-3">
-                <i class="bi bi-book"></i>
-                <h3>LinkedIn</h3>
-                <p>https://www.linkedin.com/in/sara-silverman-4550232b2/</p>
-              </div>
-            
-              <div class="col-md-3">
-                <i class="bi bi-book"></i>
-                <h3>Github</h3>
-                <p>https://github.com/sarasilverman</p>
-              </div>
-            
-            <div class="col-md-3">
-              <i class="bi bi-chat-square-dots"></i>
+ <!-- Contact Section -->
+ <div class="container" id="Contact-section">
+  <button type="button" class="btn btn-dark btn-lg px-4 me-md-2">Contact</button>
+  <div class="row">
+      <div class="col-md-3">
+          <i class="bi bi-envelope-arrow-up-fill"></i>
+          <a href="mailto:ssilve10@terpmail.umd.edu" class="link">
+              <h3>Email Me</h3>
+          </a>
+      </div>
+      <div class="col-md-3">
+          <i class="bi bi-linkedin"></i>
+          <a href="https://www.linkedin.com/in/sara-silverman-4550232b2/" target="_blank" class="link">
+              <h3>LinkedIn</h3>
+          </a>
+      </div>
+      <div class="col-md-3">
+          <i class="bi bi-github"></i>
+          <a href="https://github.com/sarasilverman" target="_blank" class="link">
+              <h3>GitHub</h3>
+          </a>
+      </div>
+      <div class="col-md-3">
+          <i class="bi bi-twitter-x"></i>
+          <a href="https://x.com/ssilverman" target="_blank" class="link">
               <h3>Twitter</h3>
-              <p>https://x.com/ssilvermantv</p>
-            </div>
+          </a>
+      </div>
+  </div>
+</div>
+
        
-            </div>
-          </div>
-        </div>
-       
-    </div>
- </div>
- <footer class="footer mt-auto py-3 bg-dark">
+<footer class="bg-dark text-light text-center py-4">
+
 </footer>
+
 
 </body>
 </html>
