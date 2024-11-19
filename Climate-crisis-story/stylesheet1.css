@@ -29,13 +29,14 @@
  .chapter {
     font-family: georgia, serif;
     font-weight: 600;
-    font-size: 2em;
+    font-size: 1.4em;
     color: #f23030;
     margin-top: 0; 
     margin-bottom: 5px;
     padding: 10px; 
 
 }
+
 
 .btn{
     color: white;
@@ -123,6 +124,46 @@ color: white;
     font-size:.25em;
 }
 
+.pull-quote {
+    font-style: italic;
+    font-size: 1.5em;
+    color: #555;
+    border-left: 4px solid #f23030;
+    padding-left: 15px;
+    margin: 20px 0;
+    background-color: #f1b393;
+    width: 100%;
+}
+
+.pull-quote-author {
+    font-size: 1em;
+    font-weight: bold;
+    text-align: right;
+    color: #333;
+}
+
+.link{
+    font-size: 18px;
+    color:#f23030;
+ }
+
+ a {
+    color: red; 
+    text-decoration: none;
+    font-weight: bold;
+}
+
+a:hover {
+    color: darkred;
+    text-decoration: underline; 
+    transition: color 0.3s ease-in-out; 
+}
+
+a:visited {
+    color: crimson; 
+    text-decoration: none; 
+}
+ 
 @media(max-width:700px){
     p{
         padding-left:20px;
