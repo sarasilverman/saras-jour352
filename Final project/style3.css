@@ -41,7 +41,6 @@ p{
     margin-top: 0; 
     margin-bottom: 5px;
     padding: 10px; 
-
 }
 
 
@@ -57,7 +56,6 @@ p{
     border: none;
     padding: 10px;
     border-radius: 5px;
-    transition: background-color 0.3s;
 }
 
 #image-container{
@@ -156,7 +154,7 @@ color: white;
 
 .link{
     font-size: 18px;
-    color:#f23030;
+    color:#000000;
 }
 
 a {
